@@ -1,2 +1,12 @@
-# IntroductionToAlgorithmsLibrary
-Collect data structure, algorithm, design pattern solution, with c++ implementation.
+# 算法和数据结构库
+收藏一些数据结构，算法和设计模式实现的代码，主要用 C++ 编写。
+
+
+
+# 目录
+
+*Explain：简单*😁 | *吃力*😥 | *困难*😭
+
+### 链表：
+
+* LeetCode-707：设计链表 😁
