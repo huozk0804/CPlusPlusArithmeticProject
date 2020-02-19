@@ -10,3 +10,4 @@
 ### 链表：
 
 * [LeetCode-707：设计链表](https://github.com/huozk0804/Algorithms-Library/blob/master/Algorithms-Docs/LinkList/Leetcode-707%EF%BC%9A%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8.md) 😁
+* [Leetcode-141：环形链表](https://github.com/huozk0804/Algorithms-Library/blob/master/Algorithms-Docs/LinkList/Leetcode-141%EF%BC%9A%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) 😁
