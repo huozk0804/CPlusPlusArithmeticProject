@@ -27,9 +27,15 @@
     <ClCompile Include="SingleLinkedList.cpp">
       <Filter>源文件\LinkList</Filter>
     </ClCompile>
+    <ClCompile Include="CircularLinkedList.cpp">
+      <Filter>源文件\LinkList</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SingleLinkedList.h">
+      <Filter>头文件\LinkList</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularLinkedList.h">
       <Filter>头文件\LinkList</Filter>
     </ClInclude>
   </ItemGroup>
