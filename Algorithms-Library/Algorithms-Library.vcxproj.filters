@@ -33,6 +33,9 @@
     <ClCompile Include="Leetcode.160：Intersection of Two Linked Lists.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.19：Remove Nth Node From End of List.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">

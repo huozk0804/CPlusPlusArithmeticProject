@@ -46,3 +46,10 @@ class IntersectionOfTwoLinkedLists
 public:
 	ListNode* getIntersectionNode(ListNode*, ListNode*);
 };
+
+class RemoveNthNodeFromEndOfList
+{
+public:
+	ListNode* removeNthFromEnd(ListNode*, int);
+};
+
