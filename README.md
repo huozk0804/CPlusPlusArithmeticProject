@@ -1,13 +1,6 @@
 # Algorithms-Library
 
-![](https://img.shields.io/badge/huozk-game-blue)
-
-![](https://img.shields.io/badge/language-c%2B%2B-blue)
-
-![](https://img.shields.io/twitter/follow/huozk0804?style=social)
-
-![](https://img.shields.io/github/stars/huozk0804/Algorithms-Library?style=social)
-
+![](https://img.shields.io/badge/huozk-game-blue) ![](https://img.shields.io/badge/language-c%2B%2B-blue) ![](https://img.shields.io/twitter/follow/huozk0804?style=social) ![](https://img.shields.io/github/stars/huozk0804/Algorithms-Library?style=social)
 收藏一些数据结构，算法和设计模式实现的代码，主要用 C++ 编写。
 
 ### Data Structure
