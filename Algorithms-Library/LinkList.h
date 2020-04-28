@@ -59,3 +59,9 @@ class ReverseLinkedList
 public:
 	ListNode* reverseList(ListNode*);
 };
+
+class RemoveLinkedListElements
+{
+public:
+	ListNode* removeElements(ListNode*, int);
+};

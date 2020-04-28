@@ -39,6 +39,9 @@
     <ClCompile Include="Leetcode.206：Reverse Linked List.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.203：Remove Linked List Elements.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">

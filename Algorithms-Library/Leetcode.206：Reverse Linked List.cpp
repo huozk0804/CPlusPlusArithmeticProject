@@ -12,9 +12,9 @@ ListNode* ReverseLinkedList::reverseList(ListNode* head) {
 	return newHead;
 
 	//µİ¹é·½·¨
-	//if (head == NULL || head->next == NULL) return head;
-	//ListNode* reversedHead = reverseList(head->next);
-	//head->next->next = head;
-	//head->next = NULL;
-	//return reversedHead;
+	/*if (head == NULL || head->next == NULL) return head;
+	ListNode* reversedHead = reverseList(head->next);
+	head->next->next = head;
+	head->next = NULL;
+	return reversedHead;*/
 }
