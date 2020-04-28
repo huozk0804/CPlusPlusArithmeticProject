@@ -114,3 +114,15 @@ void MyLinkedList::PrintList()
 
 	cout << "输出结束" << endl;
 }
+void MyLinkedList::PrintList(ListNode* a)
+{
+	ListNode* p = a;
+
+	while (p != NULL)
+	{
+		cout << p->val << "\t";
+		p = p->next;
+	}
+
+	cout << "输出结束" << endl;
+}

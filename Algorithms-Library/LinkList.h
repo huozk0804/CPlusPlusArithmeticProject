@@ -22,10 +22,11 @@ public:
 	void deleteAtIndex(int);
 
 	void PrintList();
+	void PrintList(ListNode*);
 
+	ListNode* head;
 private:
 	int ListSize;
-	ListNode* head;
 	ListNode* tail;
 };
 
@@ -53,3 +54,8 @@ public:
 	ListNode* removeNthFromEnd(ListNode*, int);
 };
 
+class ReverseLinkedList
+{
+public:
+	ListNode* reverseList(ListNode*);
+};

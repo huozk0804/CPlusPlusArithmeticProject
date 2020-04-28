@@ -143,6 +143,7 @@
     <ClCompile Include="Leetcode.142：Linked List Cycle Ⅱ.cpp" />
     <ClCompile Include="Leetcode.160：Intersection of Two Linked Lists.cpp" />
     <ClCompile Include="Leetcode.19：Remove Nth Node From End of List.cpp" />
+    <ClCompile Include="Leetcode.206：Reverse Linked List.cpp" />
     <ClCompile Include="Leetcode.707：Design Linked List.cpp" />
   </ItemGroup>
   <ItemGroup>
