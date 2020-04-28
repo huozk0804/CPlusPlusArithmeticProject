@@ -32,8 +32,12 @@ private:
 class LinkedListCycle
 {
 public:
-	LinkedListCycle();
 	bool hasCycle(ListNode*);
-private:
-
 };
+
+class LinkedListCycle¢ò
+{
+public:
+	ListNode* detectCycle(ListNode*);
+};
+

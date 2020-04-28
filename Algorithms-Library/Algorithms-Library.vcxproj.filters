@@ -27,6 +27,9 @@
     <ClCompile Include="Leetcode.141：Linked List Cycle.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.142：Linked List Cycle Ⅱ.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">

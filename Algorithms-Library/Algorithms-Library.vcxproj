@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClCompile Include="AlgorithmsLibraryMain.cpp" />
     <ClCompile Include="Leetcode.141：Linked List Cycle.cpp" />
+    <ClCompile Include="Leetcode.142：Linked List Cycle Ⅱ.cpp" />
     <ClCompile Include="Leetcode.707：Design Linked List.cpp" />
   </ItemGroup>
   <ItemGroup>
