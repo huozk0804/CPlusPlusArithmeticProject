@@ -15,11 +15,11 @@ class MyLinkedList
 {
 public:
 	MyLinkedList();
-	int get(int index);
-	void addAtHead(int val);
-	void addAtTail(int val);
-	void addAtIndex(int index, int val);
-	void deleteAtIndex(int index);
+	int get(int);
+	void addAtHead(int);
+	void addAtTail(int);
+	void addAtIndex(int, int);
+	void deleteAtIndex(int);
 
 	void PrintList();
 
@@ -27,4 +27,13 @@ private:
 	int ListSize;
 	ListNode* head;
 	ListNode* tail;
+};
+
+class LinkedListCycle
+{
+public:
+	LinkedListCycle();
+	bool hasCycle(ListNode*);
+private:
+
 };
