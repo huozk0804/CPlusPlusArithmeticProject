@@ -65,3 +65,9 @@ class RemoveLinkedListElements
 public:
 	ListNode* removeElements(ListNode*, int);
 };
+
+class OddEvenLinkedList
+{
+public:
+	ListNode* oddEvenList(ListNode*);
+};
