@@ -41,3 +41,8 @@ public:
 	ListNode* detectCycle(ListNode*);
 };
 
+class IntersectionOfTwoLinkedLists
+{
+public:
+	ListNode* getIntersectionNode(ListNode*, ListNode*);
+};
