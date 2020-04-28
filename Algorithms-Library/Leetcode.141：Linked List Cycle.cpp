@@ -1,9 +1,5 @@
 #include "LinkList.h"
 
-LinkedListCycle::LinkedListCycle() {
-
-}
-
 bool LinkedListCycle::hasCycle(ListNode* head) {
 	ListNode* fast = head, * solw = head;
 	while (fast && fast->next)
