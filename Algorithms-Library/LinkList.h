@@ -71,3 +71,9 @@ class OddEvenLinkedList
 public:
 	ListNode* oddEvenList(ListNode*);
 };
+
+class PalindromeLinkedList
+{
+public:
+	bool isPalindrome(ListNode*);
+};

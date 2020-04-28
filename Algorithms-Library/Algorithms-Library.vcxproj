@@ -145,6 +145,7 @@
     <ClCompile Include="Leetcode.19：Remove Nth Node From End of List.cpp" />
     <ClCompile Include="Leetcode.203：Remove Linked List Elements.cpp" />
     <ClCompile Include="Leetcode.206：Reverse Linked List.cpp" />
+    <ClCompile Include="Leetcode.234：Palindrome Linked List.cpp" />
     <ClCompile Include="Leetcode.328：Odd Even Linked List.cpp" />
     <ClCompile Include="Leetcode.707：Design Linked List.cpp" />
   </ItemGroup>
