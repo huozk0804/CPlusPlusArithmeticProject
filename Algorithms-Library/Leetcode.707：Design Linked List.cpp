@@ -1,20 +1,20 @@
-#include "SingleLinkedList.h"
+#include "LinkList.h"
 
-SingleLinkedList::SingleLinkedList() :head(NULL), tail(NULL), ListSize(0) {}
+MyLinkedList::MyLinkedList() :head(NULL), tail(NULL), ListSize(0) {}
 
-int SingleLinkedList::get(int index)
+int MyLinkedList::get(int index)
 {
 	if (index < 0 || index >= ListSize) return -1;
-	SingleListNode* current = head;
-	for (int i = 0; i < index + 1; ++i) current = current->next;
-	if (current != NULL) return -1;
-	return current->data;
+	ListNode* current = head;
+	for (int i = 1; i < index + 1; ++i) current = current->next;
+	if (current == NULL) return NULL;
+	return current->val;
 }
 
-void SingleLinkedList::addAtHead(int val)
+void MyLinkedList::addAtHead(int val)
 {
-	SingleListNode* ptr = head;
-	SingleListNode* curPtr = new SingleListNode(val);
+	ListNode* ptr = head;
+	ListNode* curPtr = new ListNode(val);
 	curPtr->next = ptr;
 	head = curPtr;
 
@@ -24,36 +24,36 @@ void SingleLinkedList::addAtHead(int val)
 	ListSize++;
 }
 
-void SingleLinkedList::addAtTail(int val)
+void MyLinkedList::addAtTail(int val)
 {
 	if (tail == NULL)
 	{
-		head = new SingleListNode(val);
+		head = new ListNode(val);
 		tail = head;
 	}
 	else
 	{
-		tail->next = new SingleListNode(val);
+		tail->next = new ListNode(val);
 		tail = tail->next;
 	}
 
 	ListSize++;
 }
 
-void SingleLinkedList::addAtIndex(int index, int val)
+void MyLinkedList::addAtIndex(int index, int val)
 {
 	if (index == 0)addAtHead(val);
 	else if (index == ListSize)addAtTail(val);
 	else if (index > 0 && index < ListSize)
 	{
-		SingleListNode* ptr = head;
+		ListNode* ptr = head;
 		while (--index)
 		{
 			if (ptr == NULL) return;
 			ptr = ptr->next;
 		}
 
-		SingleListNode* inserter = new SingleListNode(val);
+		ListNode* inserter = new ListNode(val);
 		if (ptr != NULL)
 		{
 			inserter->next = ptr->next;
@@ -66,27 +66,27 @@ void SingleLinkedList::addAtIndex(int index, int val)
 	}
 }
 
-void SingleLinkedList::deleteAtIndex(int index)
+void MyLinkedList::deleteAtIndex(int index)
 {
 	if (index == 0)
 	{
-		SingleListNode* ptr = head;
+		ListNode* ptr = head;
 		head = head->next;
 		delete ptr;
 		ListSize--;
 	}
 	else if (index > 0 && index < ListSize)
 	{
-		SingleListNode* pre = head;
+		ListNode* pre = head;
 		for (int i = 1; i < index; i++)
 		{
 			if (pre == NULL) break;;
 			pre = pre->next;
 		}
 
-		if(pre!=NULL)
+		if (pre != NULL)
 		{
-			SingleListNode* del = pre->next;
+			ListNode* del = pre->next;
 			if (del != NULL)
 			{
 				pre->next = del->next;
@@ -102,13 +102,13 @@ void SingleLinkedList::deleteAtIndex(int index)
 	}
 }
 
-void SingleLinkedList::PrintList()
+void MyLinkedList::PrintList()
 {
-	SingleListNode* p = head;
+	ListNode* p = head;
 
 	while (p != NULL)
 	{
-		cout << p->data << "\t";
+		cout << p->val << "\t";
 		p = p->next;
 	}
 

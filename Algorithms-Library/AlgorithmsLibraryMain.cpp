@@ -2,17 +2,32 @@
 
 #include <iostream>
 #include <string>
+#include "LinkList.h"
 
 using namespace  std;
 
-#include "CircularLinkedList.h"
-
 int main()
 {
-	int l1[4] = { 3,2,0,-4 };
-	CircularLinkedList* l2 = new  CircularLinkedList(l1, 4);
-	cout << l2->hasCycle(l2->head) << endl;
 
 	cout << "AlgorithmsLibraryMain..." << endl;
+
+	MyLinkedList* a = new MyLinkedList();
+	a->addAtHead(1);
+	a->PrintList();
+
+	a->addAtTail(3);
+	a->PrintList();
+
+	a->addAtIndex(1, 2);
+	a->PrintList();
+
+	cout << a->get(1) << endl;
+	
+
+	a->deleteAtIndex(1);
+	a->PrintList();
+
+	cout << a->get(1) << endl;
+
 	return 0;
 }
