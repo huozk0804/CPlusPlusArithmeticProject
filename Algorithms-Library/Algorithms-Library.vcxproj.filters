@@ -48,6 +48,9 @@
     <ClCompile Include="Leetcode.234：Palindrome Linked List.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.707：Design Double Linked List.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">

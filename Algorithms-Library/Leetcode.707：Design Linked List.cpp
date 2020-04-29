@@ -1,8 +1,8 @@
 #include "LinkList.h"
 
-MyLinkedList::MyLinkedList() :head(NULL), tail(NULL), ListSize(0) {}
+DesignLinkedList::DesignLinkedList() :head(NULL), tail(NULL), ListSize(0) {}
 
-int MyLinkedList::get(int index)
+int DesignLinkedList::get(int index)
 {
 	if (index < 0 || index >= ListSize) return -1;
 	ListNode* current = head;
@@ -11,7 +11,7 @@ int MyLinkedList::get(int index)
 	return current->val;
 }
 
-void MyLinkedList::addAtHead(int val)
+void DesignLinkedList::addAtHead(int val)
 {
 	ListNode* ptr = head;
 	ListNode* curPtr = new ListNode(val);
@@ -24,7 +24,7 @@ void MyLinkedList::addAtHead(int val)
 	ListSize++;
 }
 
-void MyLinkedList::addAtTail(int val)
+void DesignLinkedList::addAtTail(int val)
 {
 	if (tail == NULL)
 	{
@@ -40,7 +40,7 @@ void MyLinkedList::addAtTail(int val)
 	ListSize++;
 }
 
-void MyLinkedList::addAtIndex(int index, int val)
+void DesignLinkedList::addAtIndex(int index, int val)
 {
 	if (index == 0)addAtHead(val);
 	else if (index == ListSize)addAtTail(val);
@@ -66,7 +66,7 @@ void MyLinkedList::addAtIndex(int index, int val)
 	}
 }
 
-void MyLinkedList::deleteAtIndex(int index)
+void DesignLinkedList::deleteAtIndex(int index)
 {
 	if (index == 0)
 	{
@@ -102,7 +102,7 @@ void MyLinkedList::deleteAtIndex(int index)
 	}
 }
 
-void MyLinkedList::PrintList()
+void DesignLinkedList::PrintList()
 {
 	ListNode* p = head;
 
@@ -114,7 +114,7 @@ void MyLinkedList::PrintList()
 
 	cout << "Êä³ö½áÊø" << endl;
 }
-void MyLinkedList::PrintList(ListNode* a)
+void DesignLinkedList::PrintList(ListNode* a)
 {
 	ListNode* p = a;
 

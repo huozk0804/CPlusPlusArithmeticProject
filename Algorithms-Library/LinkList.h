@@ -8,13 +8,20 @@ typedef int type;
 struct ListNode {
 	type val;
 	ListNode* next;
-	ListNode(int x) : val(x), next(NULL) {}
+	ListNode(type x) : val(x), next(NULL) {}
 };
 
-class MyLinkedList
+struct DoublyListNode
+{
+	type val;
+	DoublyListNode* prev, * next;
+	DoublyListNode(type x) :val(x), next(NULL), prev(NULL) {}
+};
+
+class DesignLinkedList
 {
 public:
-	MyLinkedList();
+	DesignLinkedList();
 	int get(int);
 	void addAtHead(int);
 	void addAtTail(int);
@@ -28,6 +35,22 @@ public:
 private:
 	int ListSize;
 	ListNode* tail;
+};
+
+class DesignDoublyLinkedList
+{
+public:
+	DesignDoublyLinkedList();
+	int get(int);
+	void addAtHead(int);
+	void addAtTail(int);
+	void addAtIndex(int, int);
+	void deleteAtIndex(int);
+	void PrintList();
+	void PrintList(DoublyListNode*);
+
+	DoublyListNode* head;
+	int listSize;
 };
 
 class LinkedListCycle

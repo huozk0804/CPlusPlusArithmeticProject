@@ -10,7 +10,7 @@ int main()
 {
 
 	cout << "AlgorithmsLibraryMain..." << endl;
-	MyLinkedList* head = new MyLinkedList();
+	DesignDoublyLinkedList* head = new DesignDoublyLinkedList();
 	head->addAtTail(1);
 	head->addAtTail(0);
 	head->addAtTail(0);
@@ -18,7 +18,5 @@ int main()
 	//head->addAtTail(5);
 	head->PrintList();
 
-	PalindromeLinkedList a;
-	cout << a.isPalindrome(head->head) << endl;
 	return 0;
 }
