@@ -25,6 +25,5 @@ ListNode* AddTwoNumbers::addTwoNumbers(ListNode* l1, ListNode* l2) {
 
 	if (ten > 0)
 		h2->next = new ListNode(ten);
-
 	return h1->next;
 }
