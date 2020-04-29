@@ -18,6 +18,14 @@ struct DoublyListNode
 	DoublyListNode(type x) :val(x), next(NULL), prev(NULL) {}
 };
 
+struct Node
+{
+	type val;
+	Node* prev;
+	Node* next;
+	Node* child;
+};
+
 class DesignLinkedList
 {
 public:
@@ -112,4 +120,10 @@ class AddTwoNumbers
 {
 public:
 	ListNode* addTwoNumbers(ListNode*, ListNode*);
+};
+
+class FlattenAMultilevelDoublyLinkedList
+{
+public:
+	Node* flatten(Node*);
 };

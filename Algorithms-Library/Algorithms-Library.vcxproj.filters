@@ -57,6 +57,9 @@
     <ClCompile Include="Leetcode.2：Add Two Numbers.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.430：Flatten a Multilevel Doubly Linked List.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
