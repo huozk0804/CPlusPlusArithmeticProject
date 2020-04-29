@@ -1,20 +1,36 @@
 #include"LinkList.h"
 
+ListNode* PalindromeLinkedList::reverselist(ListNode* head) {
+	ListNode* pre = NULL, * next = NULL;
+	while (head != NULL)
+	{
+		next = head->next;
+		head->next = pre;
+		pre = head;
+		head = next;
+	}
+	return pre;
+}
+
 bool PalindromeLinkedList::isPalindrome(ListNode* head) {
-	ListNode* temp = head;
-	int length = 0;
-
-	while (temp)
+	if (head == NULL || head->next == NULL)
+		return true;
+	ListNode* slow = head, * fast = head;
+	while (fast->next != NULL && fast->next->next != NULL)
 	{
-		length++;
-		temp = temp->next;
+		slow = slow->next;
+		fast = fast->next->next;
 	}
 
-	for (int i = 0; i < length / 2; i++)
+	slow->next = reverselist(slow->next);
+	slow = slow->next;
+	while (slow != NULL)
 	{
-		if ()
-		{
-
-		}
+		if (slow->val != head->val)
+			return false;
+		slow = slow->next;
+		head = head->next;
 	}
+
+	return true;
 }

@@ -75,5 +75,6 @@ public:
 class PalindromeLinkedList
 {
 public:
+	ListNode* reverselist(ListNode*);
 	bool isPalindrome(ListNode*);
 };
