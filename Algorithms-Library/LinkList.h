@@ -107,3 +107,9 @@ class MergeTwoSortedLists
 public:
 	ListNode* mergeTwoLists(ListNode*, ListNode*);
 };
+
+class AddTwoNumbers
+{
+public:
+	ListNode* addTwoNumbers(ListNode*, ListNode*);
+};

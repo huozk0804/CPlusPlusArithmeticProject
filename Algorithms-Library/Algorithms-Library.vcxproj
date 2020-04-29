@@ -147,6 +147,7 @@
     <ClCompile Include="Leetcode.206：Reverse Linked List.cpp" />
     <ClCompile Include="Leetcode.21：Merge Two Sorted Lists.cpp" />
     <ClCompile Include="Leetcode.234：Palindrome Linked List.cpp" />
+    <ClCompile Include="Leetcode.2：Add Two Numbers.cpp" />
     <ClCompile Include="Leetcode.328：Odd Even Linked List.cpp" />
     <ClCompile Include="Leetcode.707：Design Double Linked List.cpp" />
     <ClCompile Include="Leetcode.707：Design Linked List.cpp" />

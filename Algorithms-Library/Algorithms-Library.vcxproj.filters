@@ -54,6 +54,9 @@
     <ClCompile Include="Leetcode.21：Merge Two Sorted Lists.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.2：Add Two Numbers.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
