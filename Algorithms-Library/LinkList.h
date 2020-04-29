@@ -101,3 +101,9 @@ public:
 	ListNode* reverselist(ListNode*);
 	bool isPalindrome(ListNode*);
 };
+
+class MergeTwoSortedLists
+{
+public:
+	ListNode* mergeTwoLists(ListNode*, ListNode*);
+};

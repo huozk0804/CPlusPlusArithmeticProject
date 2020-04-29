@@ -51,6 +51,9 @@
     <ClCompile Include="Leetcode.707：Design Double Linked List.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.21：Merge Two Sorted Lists.cpp">
+      <Filter>源文件\链表</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
