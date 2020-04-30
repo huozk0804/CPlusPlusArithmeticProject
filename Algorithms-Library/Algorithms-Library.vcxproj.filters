@@ -16,6 +16,9 @@
     <Filter Include="源文件\链表">
       <UniqueIdentifier>{ad1bd2e2-4bba-49c5-91d0-68cf83b002f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\队列和栈">
+      <UniqueIdentifier>{d64fe255-0c13-484e-b160-8b4d5290c38e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlgorithmsLibraryMain.cpp">
@@ -60,9 +63,18 @@
     <ClCompile Include="Leetcode.430：Flatten a Multilevel Doubly Linked List.cpp">
       <Filter>源文件\链表</Filter>
     </ClCompile>
+    <ClCompile Include="DesignQueue.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
+    <ClCompile Include="Leetcode.622：Design Circular Queue.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueAndStack.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

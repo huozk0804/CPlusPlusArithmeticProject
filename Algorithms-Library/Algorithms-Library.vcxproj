@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AlgorithmsLibraryMain.cpp" />
+    <ClCompile Include="DesignQueue.cpp" />
     <ClCompile Include="Leetcode.141：Linked List Cycle.cpp" />
     <ClCompile Include="Leetcode.142：Linked List Cycle Ⅱ.cpp" />
     <ClCompile Include="Leetcode.160：Intersection of Two Linked Lists.cpp" />
@@ -150,11 +151,13 @@
     <ClCompile Include="Leetcode.2：Add Two Numbers.cpp" />
     <ClCompile Include="Leetcode.328：Odd Even Linked List.cpp" />
     <ClCompile Include="Leetcode.430：Flatten a Multilevel Doubly Linked List.cpp" />
+    <ClCompile Include="Leetcode.622：Design Circular Queue.cpp" />
     <ClCompile Include="Leetcode.707：Design Double Linked List.cpp" />
     <ClCompile Include="Leetcode.707：Design Linked List.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h" />
+    <ClInclude Include="QueueAndStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

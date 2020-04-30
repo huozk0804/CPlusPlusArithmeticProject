@@ -1,4 +1,5 @@
 #include"LinkList.h"
+
 Node* FlattenAMultilevelDoublyLinkedList::flatten(Node* head) {
 	Node* cur = head;
 	while (cur)
