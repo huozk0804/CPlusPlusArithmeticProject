@@ -69,6 +69,12 @@
     <ClCompile Include="Leetcode.622：Design Circular Queue.cpp">
       <Filter>源文件\队列和栈</Filter>
     </ClCompile>
+    <ClCompile Include="Leetcode.752：Open the Lock.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
+    <ClCompile Include="leetcode.279：Perfect Squares.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">

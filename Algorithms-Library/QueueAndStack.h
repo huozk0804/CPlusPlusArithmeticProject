@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<vector>
+#include<queue>
 using namespace std;
 
 typedef int type;
@@ -34,4 +35,16 @@ public:
 private:
 	type head, tail;
 	vector<type> queue;
+};
+
+class OpenTheLock
+{
+public:
+	int openLock(vector<string>&, string);
+};
+
+class PerfectSquares
+{
+public:
+	int numSquares(int);
 };
