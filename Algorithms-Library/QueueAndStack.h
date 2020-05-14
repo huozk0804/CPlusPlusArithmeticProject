@@ -3,38 +3,61 @@
 #include<iostream>
 #include<vector>
 #include<queue>
+
 using namespace std;
 
-typedef int type;
+typedef int dataType;
 
-class MyQueue
+//队列的实现
+class Queue
 {
 public:
-	MyQueue();
-	bool enQueue(type);
+	Queue();
+	bool enQueue(dataType);
 	bool deQueue();
-	type front();
+	dataType front();
 	bool isEmpty();
 
 private:
-	vector<int> data;
+	vector<dataType> data;
 	int start;
+};
+
+struct stackNode
+{
+	dataType value;
+	stackNode* next;
+};
+
+//栈的实现
+class Stack
+{
+public:
+	Stack();
+	Stack(dataType);
+	void Push(dataType);
+	dataType Pop();
+	bool isEmpty();
+	bool isFull();
+private:
+	stackNode* stack;
+	int stackLength;
 };
 
 class DesignCircularQueue
 {
 public:
 	DesignCircularQueue();
-	bool EnQueue(type);
+	bool EnQueue(dataType);
 	bool DeQueue();
-	type Front();
-	type Rear();
+	dataType Front();
+	dataType Rear();
 	bool isEmpty();
 	bool isFull();
 
 private:
-	type head, tail;
-	vector<type> queue;
+	dataType head, tail;
+	vector<dataType> queue;
 };
 
 class OpenTheLock

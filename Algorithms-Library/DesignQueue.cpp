@@ -1,25 +1,25 @@
 #include"QueueAndStack.h"
 
-MyQueue::MyQueue() {
+Queue::Queue() {
 	start = 0;
 }
 
-bool MyQueue::enQueue(type val) {
+bool Queue::enQueue(dataType val) {
 	data.push_back(val);
 	return true;
 }
 
-bool MyQueue::deQueue() {
+bool Queue::deQueue() {
 	if (isEmpty())
 		return false;
 
 	start++;
 }
 
-type MyQueue::front() {
+dataType Queue::front() {
 	return data[start];
 }
 
-bool MyQueue::isEmpty() {
+bool Queue::isEmpty() {
 	return start >= data.size();
 }

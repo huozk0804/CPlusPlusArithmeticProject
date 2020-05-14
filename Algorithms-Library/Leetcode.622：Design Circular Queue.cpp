@@ -4,7 +4,7 @@ DesignCircularQueue::DesignCircularQueue() {
 	head = tail = 0;
 }
 
-bool DesignCircularQueue::EnQueue(type val) {
+bool DesignCircularQueue::EnQueue(dataType val) {
 	if (isEmpty() || isFull())return false;
 	queue.push_back(val);
 	tail++;
@@ -17,12 +17,12 @@ bool DesignCircularQueue::DeQueue() {
 	return true;
 }
 
-type DesignCircularQueue::Front() {
+dataType DesignCircularQueue::Front() {
 	if (isEmpty())return -1;
 	return queue[head];
 }
 
-type DesignCircularQueue::Rear() {
+dataType DesignCircularQueue::Rear() {
 	if (isEmpty())return -1;
 	return queue[tail];
 }

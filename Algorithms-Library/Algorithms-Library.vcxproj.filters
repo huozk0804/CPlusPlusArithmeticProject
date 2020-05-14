@@ -19,6 +19,12 @@
     <Filter Include="源文件\队列和栈">
       <UniqueIdentifier>{d64fe255-0c13-484e-b160-8b4d5290c38e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\数组和表">
+      <UniqueIdentifier>{23b49b32-bd77-4d23-94a5-bb8d2849cdf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\树">
+      <UniqueIdentifier>{488f73e9-504a-46ed-9d78-26fc4637d28a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AlgorithmsLibraryMain.cpp">
@@ -75,12 +81,24 @@
     <ClCompile Include="leetcode.279：Perfect Squares.cpp">
       <Filter>源文件\队列和栈</Filter>
     </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>源文件\队列和栈</Filter>
+    </ClCompile>
+    <ClCompile Include="BinTree.cpp">
+      <Filter>源文件\树</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkList.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="QueueAndStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayAndTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

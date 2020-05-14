@@ -3,24 +3,24 @@
 #include <iostream>
 using namespace std;
 
-typedef int type;
+typedef int dataType;
 
 struct ListNode {
-	type val;
+	dataType val;
 	ListNode* next;
-	ListNode(type x) : val(x), next(NULL) {}
+	ListNode(dataType x) : val(x), next(NULL) {}
 };
 
 struct DoublyListNode
 {
-	type val;
+	dataType val;
 	DoublyListNode* prev, * next;
-	DoublyListNode(type x) :val(x), next(NULL), prev(NULL) {}
+	DoublyListNode(dataType x) :val(x), next(NULL), prev(NULL) {}
 };
 
 struct Node
 {
-	type val;
+	dataType val;
 	Node* prev;
 	Node* next;
 	Node* child;

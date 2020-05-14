@@ -5,7 +5,7 @@ ListNode* AddTwoNumbers::addTwoNumbers(ListNode* l1, ListNode* l2) {
 	int ten = 0;
 	while (l1 != NULL || l2 != NULL)
 	{
-        type temp = ten;
+        dataType temp = ten;
         if (l1)
         {
             temp += l1->val;
